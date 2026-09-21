@@ -151,7 +151,7 @@ function FrontPage_Form1_Validator(theForm)
 </html>
 '''
 
-@app.route('/')
+@app.route('/res07/20260655.jsp')
 def home():
     return render_template_string(RESULT_TEMPLATE, student=None)
 
@@ -159,7 +159,7 @@ def home():
 def serve_gif():
     return send_from_directory(BASE_DIR, 'gobut.gif')
 
-@app.route('/search', methods=['POST'])
+@app.route('/res07/20260655.jsp', methods=['POST'])
 def search():
     htno = request.form.get('htno')
     if not htno or len(htno) != 12:
