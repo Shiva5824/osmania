@@ -10,7 +10,7 @@ DB_MAPPING = {
     "2455": "2455.db"
 }
 
-BASE_DIR = r"C:\Users\areys\OneDrive\Desktop\osmania"
+BASE_DIR = r"os.path.dirname(os.path.abspath(__file__))"
 
 def get_db_connection(db_file):
     conn = sqlite3.connect(os.path.join(BASE_DIR, db_file))
