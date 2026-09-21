@@ -10,7 +10,7 @@ DB_MAPPING = {
     "2455": "2455.db"
 }
 
-BASE_DIR = r"os.path.dirname(os.path.abspath(__file__))"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def get_db_connection(db_file):
     conn = sqlite3.connect(os.path.join(BASE_DIR, db_file))
@@ -137,7 +137,7 @@ function FrontPage_Form1_Validator(theForm)
     <tr> <td width="100%" align="center" height="16" bgcolor="#FEFCF5"><b>
          <font face="Arial" size="2">Enter  Hall Ticket No. :
          <input type="text" name="htno" size="15" maxlength="12" value="">
-         <input type="image" name="Submit" value="Go" src="gobut.gif">
+         <input type="image" name="Submit" value="Go" src="/gobut.gif">
          </font> </b></td>
     </tr>
     <tr><td width="100%" align="center">
