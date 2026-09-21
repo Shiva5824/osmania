@@ -46,7 +46,7 @@ function FrontPage_Form1_Validator(theForm)
 </script>
 </head>
 <body bgcolor="#FAF0D8" topmargin="0" leftmargin="0">
-<form method="post" action="/search" name="FrontPage_Form1" onsubmit="return FrontPage_Form1_Validator(this)">
+<form method="post" action="/res07/20260655.jsp" name="FrontPage_Form1" onsubmit="return FrontPage_Form1_Validator(this)">
 <input type="hidden" name="mbstatus" value="SEARCH">
 
 <div align="center">
